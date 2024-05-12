@@ -1,0 +1,15 @@
+
+【Foreign key】
+是一种cross reference，link到另一个table的primary key.Foreign key可以是一个或者多个column
+
+【提高效率的思路】
+[1] 先排除没有用的null再做join之类的操作 
+[2]不要无用的alias会提高速度
+
+【我常犯的语法错误】 
+[1] 多个from的table，然后我忘记用逗号分开 
+[2] Nested select的时候，我select的column不全
+
+
+
+
