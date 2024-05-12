@@ -1,0 +1,3 @@
+数据类型	
+【String】 SQL里面的string用单引号，比如 ‘boring’
+【ENUM】是一种数据类型，必须是one of a set of predefined constants. 比如东南四倍四个方向，一周7天这种
