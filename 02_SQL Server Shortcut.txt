@@ -1,0 +1,4 @@
+SQL Server Shortcut：
+【Execution】 F5 
+【New Query】Ctrl+N
+【在SQL server filter table】 右键table -> 选filters -> filter seetings ->录入你的条件  
