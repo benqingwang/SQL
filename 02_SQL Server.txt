@@ -1,0 +1,28 @@
+SQL Server Shortcut：
+【Execution】 F5 
+【New Query】Ctrl+N
+【在SQL server filter table】 右键table -> 选filters -> filter seetings ->录入你的条件  
+
+Database语法	
+【创建DB 】
+CREATE DATABASE QW;
+
+【创建Schema 】Schema是在Database的Security下面
+USE QW; 
+GO
+CREATE schema dogs;
+
+【创建table】除了要有table name你必须要定义column和column的data type
+	CREATE TABLE        cats (CatID int, CatName varchar(255), Age tinyint,);
+
+【在特定DB建立】如果不说明，新建table自动在master database里。如果想建立table在QW database，
+	需要先USE: USE QW; GO 
+	CREATE TABLE cats (CatID int,CatName varchar(255),Age tinyint,);	
+
+Schema长这样
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| user_id     | int     |
+| name        | varchar |
++-------------+---------+
